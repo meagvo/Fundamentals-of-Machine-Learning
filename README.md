@@ -37,6 +37,7 @@ Before you begin, if you are running this on Windows, you'll want to use Windows
     - pip install category_encoders==2.*
     - pip install fg-data-profiling
     - pip install --upgrade jupyter ipywidgets
+    - pip install cvxpy
 
 
 *Final note:*  In the end, I still don't see this running on GPU, but it doesn't error out.
