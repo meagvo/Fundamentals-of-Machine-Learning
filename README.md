@@ -26,10 +26,13 @@ Before you begin, if you are running this on Windows, you'll want to use Windows
         - mkdir -p ~/temp_pip
         - TMPDIR=~/temp_pip pip install --cache-dir ~/temp_pip tensorflow[and-cuda]
 
-6. **Install graphiz**
+6. **Install graphiz and dependencies**
     - sudo apt update
     - sudo apt install graphviz
     - verify the installation: dot -V
+    - sudo apt-get update
+    - sudo apt-get install xdg-utils
+
 
 7. **Install other dependencies**
     - pip install ipykernel pydot pydotplus graphviz
